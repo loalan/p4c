@@ -1,6 +1,6 @@
 [submodule "control-plane/PI"]
 	path = control-plane/PI
-	url = https://github.com/p4lang/PI.git
+	url = https://gitlab.com/lo_alan/PI.git
 	ignore = untracked
 [submodule "test/frameworks/gtest"]
 	path = test/frameworks/gtest

@@ -134,7 +134,7 @@ class CFGBuilder : public Inspector {
     const CFG::EdgeSet* get(const IR::Statement* statement)
     { return ::get(after, statement); }
     bool preorder(const IR::Statement* statement) override {
-        ::error("%1%: not supported in control block on this architecture", statement);
+        ::error("%1%: not supported in control block on this architecture BMV2", statement);
         return false;
     }
     bool preorder(const IR::ReturnStatement* statement) override {
